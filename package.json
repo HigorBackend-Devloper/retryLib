@@ -1,0 +1,14 @@
+{
+  "name": "retrylib",
+  "version": "0.1.0",
+  "description": "Retry simples para operações assíncronas e requisições HTTP",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
+  "files": ["src"],
+  "engines": { "node": ">=18" },
+  "keywords": ["retry", "fetch", "http"],
+  "scripts": {
+    "test": "node --test"
+  }
+}
